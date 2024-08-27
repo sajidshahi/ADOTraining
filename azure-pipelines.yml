@@ -5,6 +5,10 @@
 
 trigger:
 - main
+- dev
+pr:
+- master
+- dev
 
 pool:
   vmImage: ubuntu-latest
